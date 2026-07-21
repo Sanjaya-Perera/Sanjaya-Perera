@@ -1,77 +1,101 @@
-<h1 align="center">👔 Garment Demand Forecasting & Sales Dashboard</h1>
+<h1 align="center">💻 Sanjaya Perera</h1>
 <p align="center">
-  <b>Predicting monthly product demand to reduce inventory waste in the Garment Industry using Machine Learning</b>
+  <b>Fullstack Developer | Web Application Pentester | Security Enthusiast</b>
+</p>
+<p align="center">
+  <i>"Build Secure. Break Secure. Build It Better."</i>
 </p>
 
 <p align="center">
   <!-- Badges -->
   <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Scikit--learn-ML-green?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PowerBI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/BurpSuite-Pentest-FF6633?style=for-the-badge&logo=burp-suite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kali_Linux-OS-557C94?style=for-the-badge&logo=kali-linux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
 </p>
 
 <p align="center">
-  <a href="#-key-features">Features</a> •
+  <a href="#-about-me">About</a> •
   <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-dashboard">Dashboard</a> •
-  <a href="#-results">Results</a> •
-  <a href="#-how-to-run">Run</a> •
-  <a href="#-about-me">About Me</a>
+  <a href="#-featured-projects">Projects</a> •
+  <a href="#-cybersecurity">Cybersecurity</a> •
+  <a href="#-contact">Contact</a>
 </p>
 
 ---
 
-### 📌 Project Overview
-In the garment industry, overproduction and stockouts cost companies millions.
-This project uses historical sales data to **predict next month's product demand** using a `RandomForestRegressor`.
+### 🚀 About Me
+I'm a **Fullstack Developer** who builds scalable web apps, and a **Web Application Pentester** who breaks them to make them secure.
 
-A **Streamlit Web App** and **Power BI Dashboard** were built to help merchandising and production teams make data-driven decisions.
+I believe every line of code should be both `functional` and `secure`.
+Currently focused on: `MERN Stack` + `OWASP Top 10` + `Bug Bounty`
 
-> **Business Impact**: Helped reduce potential inventory waste by ~20% and improve fabric planning accuracy.
-
----
-
-### ✨ Key Features
-- [x] **Data Cleaning & EDA**: Handled missing values, outliers, and seasonality
-- [x] **ML Model**: `RandomForestRegressor` with 92% R2 Score
-- [x] **Forecasting**: Predict demand for next 3 months per product
-- [x] **Interactive Dashboard**: Streamlit app for real-time predictions
-- [x] **Executive Report**: Power BI Dashboard with KPI, Trends, and Filters
+📍 Location: Colombo, Sri Lanka
 
 ---
 
 ### 🛠️ Tech Stack
-| Category | Tools |
-| --- | --- |
-| **Language** | Python 3.10, SQL |
-| **ML / Data** | Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn |
-| **Dashboard** | Streamlit, Power BI |
-| **Other** | Git, GitHub, Jupyter Notebook |
+
+#### **Development**
+| Frontend | Backend | Database | Tools |
+| --- | --- | --- | --- |
+| React.js, Tailwind CSS, HTML5 | Node.js, Express.js, Python Flask | MongoDB, MySQL, PostgreSQL | Git, Docker, Postman |
+
+#### **Cybersecurity**
+| Tools | Skills | Platforms |
+| --- | --- | --- |
+| BurpSuite, Nmap, Wireshark, Metasploit | OWASP Top 10, Web App Pentest, API Security | Kali Linux, TryHackMe, HackTheBox |
 
 ---
 
-### 📊 Dashboard Preview
+### 💼 Featured Projects
+
+#### **1. SecureAuth - MERN Auth System with Security Hardening**
+`React | Node.js | JWT | Helmet | Rate-Limiting`
+- Fullstack Authentication system with Login, Register, Password Reset
+- **Security Added**: SQL Injection prevention, XSS protection, Brute-force protection
+- [Live Demo](#) | [GitHub Repo](#)
+
+#### **2. VulnLab - Intentionally Vulnerable Web App for Learning**
+`Node.js | Express | EJS`
+- A web app with 10 OWASP vulnerabilities for practicing pentesting
+- Used by students to learn SQLi, XSS, CSRF in a safe environment
+- [GitHub Repo](#)
+
+#### **3. Port Scanner CLI Tool**
+`Python | Sockets | Multithreading`
+- Fast TCP Port Scanner with output to CSV/JSON
+- [GitHub Repo](#)
+
+---
+
+### 🔒 Cybersecurity Journey
+- [x] **TryHackMe**: `Jr Penetration Tester` Path Completed
+- [x] **OWASP**: Top 10 Vulnerabilities Practiced
+- [x] **Bug Bounty**: Actively reporting on HackerOne & Bugcrowd
+- [x] **Certifications Targeting**: `eJPT`, `CompTIA Security+`
+
+> "I don't just write code. I attack it first."
+
+---
+
+### 📊 GitHub Stats
 <p align="center">
-  <img src="notebooks/garment_dashboard.gif" width="800" alt="Power BI Dashboard Demo"/>
-  <br>
-  <i>Power BI Dashboard showing Sales Trend, Top Products, and KPI Cards</i>
+  <img src="https://github-readme-stats.vercel.app/api?username=Sanjaya-Perera&show_icons=true&theme=radical" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sanjaya-Perera&layout=compact&theme=radical" width="48%"/>
 </p>
 
 ---
 
-### 📈 Results
-| Metric | Score |
-| --- | --- |
-| **Model R2 Score** | 0.92 |
-| **MAE** | 15.4 Units |
-| **Key Insight** | T-Shirt demand increases by 33% in March. Recommended early fabric order. |
+### 📫 Contact Me
+**Sanjaya Perera**
+- 💼 LinkedIn: [linkedin.com/in/sanjaya-perera](https://linkedin.com/in/sanjaya-perera)
+- 📧 Email: sanjayaperera357@gmail.com
+- 🐙 GitHub: [@Sanjaya-Perera](https://github.com/Sanjaya-Perera)
+- 🎯 TryHackMe: [Your Profile Link]
+
+⭐ *Feel free to connect and collaborate!*
 
 ---
-
-### 🚀 How to Run This Project
-1. **Clone the repo**
-    ```bash
-    git clone https://github.com/Sanjaya-Perera/garment-demand-forecast.git
-    cd garment-demand-forecast
